@@ -2,23 +2,13 @@
 
 This report analyzes images where the Hybrid technique performed poorly.
 
-## Category: wild_cat
-- **SSIM**: 0.9987
-- **NC JPEG**: 0.5938
-- **NC Resize**: 0.5938
-- **Brightness**: 150.85
-- **Contrast (StdDev)**: 73.26
-- **Edge Density (Laplacian Var)**: 108.28
-
----
-
-## Category: pigeon
-- **SSIM**: 0.9985
-- **NC JPEG**: 0.7656
+## Category: accordion
+- **SSIM**: 0.9986
+- **NC JPEG**: 0.8281
 - **NC Resize**: 0.0000
-- **Brightness**: 190.82
-- **Contrast (StdDev)**: 57.73
-- **Edge Density (Laplacian Var)**: 324.00
+- **Brightness**: 77.65
+- **Contrast (StdDev)**: 84.12
+- **Edge Density (Laplacian Var)**: 1170.39
 - **Note**: Catastrophic Resize failure. High edge density or specific textures might be interfering with frequency stability after interpolation.
 
 ---
@@ -31,6 +21,16 @@ This report analyzes images where the Hybrid technique performed poorly.
 - **Contrast (StdDev)**: 52.07
 - **Edge Density (Laplacian Var)**: 94.21
 - **Note**: Relatively low SSIM. Likely due to smooth background where watermark patterns are more visible.
+
+---
+
+## Category: wild_cat
+- **SSIM**: 0.9987
+- **NC JPEG**: 0.5938
+- **NC Resize**: 0.5938
+- **Brightness**: 150.85
+- **Contrast (StdDev)**: 73.26
+- **Edge Density (Laplacian Var)**: 108.28
 
 ---
 
@@ -56,6 +56,17 @@ This report analyzes images where the Hybrid technique performed poorly.
 
 ---
 
+## Category: pigeon
+- **SSIM**: 0.9985
+- **NC JPEG**: 0.7656
+- **NC Resize**: 0.0000
+- **Brightness**: 190.82
+- **Contrast (StdDev)**: 57.73
+- **Edge Density (Laplacian Var)**: 324.00
+- **Note**: Catastrophic Resize failure. High edge density or specific textures might be interfering with frequency stability after interpolation.
+
+---
+
 ## Category: stapler
 - **SSIM**: 0.9981
 - **NC JPEG**: 0.6094
@@ -63,17 +74,6 @@ This report analyzes images where the Hybrid technique performed poorly.
 - **Brightness**: 191.83
 - **Contrast (StdDev)**: 76.37
 - **Edge Density (Laplacian Var)**: 295.91
-- **Note**: Catastrophic Resize failure. High edge density or specific textures might be interfering with frequency stability after interpolation.
-
----
-
-## Category: accordion
-- **SSIM**: 0.9986
-- **NC JPEG**: 0.8281
-- **NC Resize**: 0.0000
-- **Brightness**: 77.65
-- **Contrast (StdDev)**: 84.12
-- **Edge Density (Laplacian Var)**: 1170.39
 - **Note**: Catastrophic Resize failure. High edge density or specific textures might be interfering with frequency stability after interpolation.
 
 ---

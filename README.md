@@ -2,6 +2,17 @@
 
 This project evaluates and compares three digital image watermarking techniques: **LSB (Spatial Domain)**, **DFT (Frequency Domain)**, and a **Hybrid Approach**. It uses the Caltech-101 dataset for testing robustness against JPEG compression and Resizing attacks.
 
+
+## Project Structure
+- `Code/`: Contains the implementation of watermarking algorithms and utility scripts.
+- `caltech-101/`: The source dataset (ensure this folder exists before running).
+- `plots/`: Generated charts comparing SSIM and NC metrics.
+- `outlier_analysis/`: Detailed investigation into catastrophic failures.
+- `app.py`: The Streamlit GUI application.
+- `requirements.txt`: List of required Python packages.
+
+
+
 ## Environment Setup
 
 To ensure all dependencies are correctly installed, it is recommended to use a Python virtual environment. You can use **Python 3.11+**, but recommended is 3.11
@@ -68,12 +79,6 @@ If you prefer to run the components individually without the GUI:
     ```
     *This generates the `outlier_analysis/` folder with detailed reports and images.*
 
----
+    ## User Guide
 
-## Project Structure
-- `Code/`: Contains the implementation of watermarking algorithms and utility scripts.
-- `caltech-101/`: The source dataset (ensure this folder exists before running).
-- `plots/`: Generated charts comparing SSIM and NC metrics.
-- `outlier_analysis/`: Detailed investigation into catastrophic failures.
-- `app.py`: The Streamlit GUI application.
-- `requirements.txt`: List of required Python packages.
+    Explanations on how to analyze and verify the workflow, check [USER_GUIDE.md](USER_GUIDE.md).

@@ -79,6 +79,6 @@ If you prefer to run the components individually without the GUI:
     ```
     *This generates the `outlier_analysis/` folder with detailed reports and images.*
 
-    ## User Guide
+## User Guide
 
-    Explanations on how to analyze and verify the workflow, check [USER_GUIDE.md](USER_GUIDE.md).
+Explanations on how to analyze and verify the workflow, check [USER_GUIDE.md](USER_GUIDE.md).

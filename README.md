@@ -31,11 +31,14 @@ python3 -m venv venv
 ### 2. Activate the Virtual Environment
 ```bash
 # Windows
-venv\Scripts\activate
+venv/Scripts/activate
+# Or
+source ./venv/Scripts/activate
 
 # macOS/Linux
 source venv/bin/activate
 ```
+*If anything goes wrong try back/front slashes `\`  or `/` and be careful with lower/upper cases.*
 
 ### 2.1. Deactivate the Virtual Environment (only after running the code)
 ```bash

@@ -6,10 +6,12 @@ This project evaluates and compares three digital image watermarking techniques:
 ## Project Structure
 - `Code/`: Contains the implementation of watermarking algorithms and utility scripts.
 - `caltech-101/`: The source dataset (ensure this folder exists before running).
+- `specs/`: Specifications of this project, including paper methods.
 - `plots/`: Generated charts comparing SSIM and NC metrics.
 - `outlier_analysis/`: Detailed investigation into catastrophic failures.
 - `app.py`: The Streamlit GUI application.
 - `requirements.txt`: List of required Python packages.
+- `experiment_<x>`: CSVs containing global results.
 
 
 

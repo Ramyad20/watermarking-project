@@ -84,3 +84,45 @@ If you prefer to run the components individually without the GUI:
 ## User Guide
 
 Explanations on how to analyze and verify the workflow, check [USER_GUIDE.md](USER_GUIDE.md).
+
+## Authors
+
+Pedro Silva
+
+* @Pedr0S22
+
+* uc2023235452@student.uc.pt
+
+* 2023235452
+
+Francisca Mateus
+
+* @franciscamateusPt05
+
+* uc2023212096@student.uc.pt
+
+* 2023212096
+
+Ramyad Raadi
+
+* @Ramyad20
+
+* ramyad1383@gmail.com
+
+* 2023205631
+
+Beatriz Fernandes
+
+* @2023215703BeaFernandes
+
+* uc2023215703@student.uc.pt
+
+* 2023215703
+
+Diana Martins
+
+* @reberapower1
+
+* uc2023218119@student.uc.pt
+
+* 2023218119
